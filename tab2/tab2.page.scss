@@ -1,29 +1,26 @@
-/* Adiciona a imagem de fundo para a tela inteira */
 ion-content {
     --background: url('rock.jpg') no-repeat center center fixed;
-    --background-size: cover; /* Faz com que a imagem cubra toda a tela */
-    height: 100%; /* Garante que a altura ocupe toda a tela */
+    --background-size: cover; 
+    height: 100%; 
   }
   .title {
-    color: #e10000; /* Vermelho brilhante */
+    color: #e10000; 
     font-size: 1.8rem;
     font-weight: bold;
   }
   
-  /* Overlay escuro (opcional para contraste) */
   .background-overlay {
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.5); /* Filtro de escurecimento */
-    z-index: -1; /* Garante que a sobreposição fique atrás do conteúdo */
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: -1; 
   }
   
-  /* Estilo do card de cadastro */
   .signup-card {
-    background: rgba(0, 0, 0, 0.8); /* Fundo escuro com leve transparência */
+    background: rgba(0, 0, 0, 0.8); 
     padding: 30px;
     border-radius: 15px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
@@ -56,7 +53,6 @@ ion-content {
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
   }
   
-  /* Estilo dos campos de entrada */
   .input-item {
     margin-bottom: 20px;
   }
@@ -76,9 +72,8 @@ ion-content {
     font-weight: 600;
   }
   
- /* Estilo do botão */
  ion-button {
-  --background: #e10000; /* Vermelho vibrante */
+  --background: #e10000; 
   --color: white;
   --border-radius: 8px;
   --padding-start: 10px;
@@ -88,10 +83,9 @@ ion-content {
 }
 
 ion-button:hover {
-  background-color: #c00000; /* Tom mais escuro ao passar o mouse */
+  background-color: #c00000;
 }
 
-/* Botão de Cadastrar */
 .register-button {
   --background: transparent;
   --color: #e10000;
